@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>RTOSDemo/Flash Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>165</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1216</ColumnWidth1><ColumnWidth2>324</ColumnWidth2><ColumnWidth3>81</ColumnWidth3></Build>
+    <TerminalIO/><Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1622</ColumnWidth1></Debug-Log><Find-All-Declarations><ColumnWidth0>376</ColumnWidth0><ColumnWidth1>53</ColumnWidth1><ColumnWidth2>645</ColumnWidth2></Find-All-Declarations><Find-All-References><ColumnWidth0>444</ColumnWidth0><ColumnWidth1>63</ColumnWidth1><ColumnWidth2>762</ColumnWidth2></Find-All-References><Find-in-Files><ColumnWidth0>448</ColumnWidth0><ColumnWidth1>64</ColumnWidth1><ColumnWidth2>769</ColumnWidth2></Find-in-Files></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-21337-25041</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>RTOSDemo</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-25290-25172</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-22929-15481</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-9842-20931</Identity><TabName>Find All Declarations</TabName><Factory>Find-All-Declarations</Factory><Session/></Tab><Tab><Identity>TabID-27511-16639</Identity><TabName>Find All References</TabName><Factory>Find-All-References</Factory><Session/></Tab><Tab><Identity>TabID-10510-18860</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RCSLIB\RCSBaseLib\RCS_Usart.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>97</YPos2><SelStart2>4845</SelStart2><SelEnd2>4845</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RCSLIB\RCSInterface\RCS_Interface_Move.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>35</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\uCOS-II\Ports\os_cpu_c.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>182</YPos2><SelStart2>7334</SelStart2><SelEnd2>7334</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RCSLIB\RCSBaseLib\RCS_TimerInterrupt.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>48</YPos2><SelStart2>2116</SelStart2><SelEnd2>2116</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RCSLIB\RCSMotion\RCS_Motion_Basemove.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>263</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RCSLIB\RCSBaseLib\RCS_Pwm.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>110</SelStart2><SelEnd2>110</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RCSLIB\RCSMotion\RCS_Motion_Encoder.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>66</YPos2><SelStart2>2994</SelStart2><SelEnd2>2994</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RCSLIB\RCSMotion\rcs_motion.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>437</SelStart2><SelEnd2>437</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RCSLIB\RCSMotion\RCS_Motion_GPS.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\STM32\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>1270</YPos2><SelStart2>50135</SelStart2><SelEnd2>50135</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\USER_CODE\main.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>181</SelStart2><SelEnd2>181</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\USER_CODE\ManualCtrl.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>815</SelStart2><SelEnd2>815</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RCSLIB\RCSBaseLib\RCS_Usart.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>107</YPos2><SelStart2>3860</SelStart2><SelEnd2>3860</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RCSLIB\RCSMotion\RCS_Motion_Command.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>197</YPos2><SelStart2>5180</SelStart2><SelEnd2>5180</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\uCOS-II\Source\os_core.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>1757</YPos2><SelStart2>76104</SelStart2><SelEnd2>76104</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RCSLIB\RCSInterface\RCS_Interface_Move.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>227</SelStart2><SelEnd2>227</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RCSLIB\RCSMotion\RCS_Motion_GPS.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>74</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\USER_CODE\_main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>24</YPos2><SelStart2>536</SelStart2><SelEnd2>536</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\uCOS-II\Ports\os_cpu_a.asm</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>81</YPos2><SelStart2>4317</SelStart2><SelEnd2>4317</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RCSLIB\RCSMotion\RCS_Motion_Gyro.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>148</YPos2><SelStart2>6561</SelStart2><SelEnd2>6561</SelEnd2></Tab><ActiveTab>19</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\STM32\bsp_int.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>359</YPos2><SelStart2>17268</SelStart2><SelEnd2>17268</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RCSLIB\RCSBaseLib\RCS_BTDebuger.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>207</YPos2><SelStart2>5096</SelStart2><SelEnd2>5096</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-02ea1ad8><key>iaridepm.enu1</key></Toolbar-02ea1ad8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>507</Bottom><Right>239</Right><x>-2</x><y>-2</y><xscreen>0</xscreen><yscreen>0</yscreen><sizeHorzCX>0</sizeHorzCX><sizeHorzCY>0</sizeHorzCY><sizeVertCX>186967</sizeVertCX><sizeVertCY>702069</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>173</Bottom><Right>1291</Right><x>-2</x><y>-2</y><xscreen>1293</xscreen><yscreen>175</yscreen><sizeHorzCX>1003103</sizeHorzCX><sizeHorzCY>241379</sizeHorzCY><sizeVertCX>0</sizeVertCX><sizeVertCY>0</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

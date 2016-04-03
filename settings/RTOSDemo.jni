@@ -1,0 +1,2 @@
+device=STM32F407VG ; device name
+core=Cortex-M4 ; core name
