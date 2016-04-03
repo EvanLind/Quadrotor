@@ -66,14 +66,18 @@ Coordinate coordinateOut;
 void MotorCtrl()
 {
 	Quadrotor.joystickVal.THRVal = 2.475e-5 * (RecvCom[0] - InitCom[0]) + 0.49;
-	Quadrotor.joystickVal.RUDVal = 5e-6 * (RecvCom[1] - InitCom[1]);
+	Quadrotor.joystickVal.RUDVal = 5e-5 * (RecvCom[1] - InitCom[1]);
 	Quadrotor.joystickVal.AILVal = 4e-3 * (RecvCom[2] - InitCom[2]);
 	Quadrotor.joystickVal.ELEVal = 4e-3 * (RecvCom[3] - InitCom[3]);
 
+	Quadrotor.attitudeCtrl.realAgl = DMP_MPU6050_GetData();
+
 	Quadrotor.attitudeCtrl.expectAgl.roll = averageTria.roll + Quadrotor.joystickVal.AILVal;
 	Quadrotor.attitudeCtrl.expectAgl.pitch = averageTria.pitch - Quadrotor.joystickVal.ELEVal;
-	Quadrotor.attitudeCtrl.expectAgl.yaw += Quadrotor.joystickVal.RUDVal;
-
+	if (fabs(Quadrotor.joystickVal.RUDVal) > 0.06)
+	{
+		Quadrotor.attitudeCtrl.expectAgl.yaw = Quadrotor.attitudeCtrl.realAgl.yaw + Quadrotor.joystickVal.RUDVal;
+	}
 	attitudeOut = AttitudeControl(&(Quadrotor.attitudeCtrl));
 	coordinateOut = AltitudeControl(&(Quadrotor.coordinateCtrl));
 
@@ -100,10 +104,12 @@ void MotorCtrl()
 	LIMIT(MOTOR_RB_Pwm);
 	LIMIT(MOTOR_LB_Pwm);
 	LIMIT(MOTOR_LF_Pwm);
-	// char res[50];
+	char res[50];
+
+	// sprintf(res, "RUD:%lf ",Quadrotor.joystickVal.RUDVal);
 	// // sprintf(res, "R0:%d R1:%d R2:%d R3:%d\n\0",RecvCom[0], RecvCom[1], RecvCom[2], RecvCom[3]);
 	// // sprintf(res, "ctrlPitch:%.5f ctrlRoll:%.5f\n\0",cos(ctrlPitch * DEG2RAD), cos(ctrlRoll * DEG2RAD));
-	// sprintf(res, "RF:%.5f RB:%.5f LB:%.5f LF:%.5f\n\0",MOTOR_RF_Pwm, MOTOR_RB_Pwm, MOTOR_LB_Pwm, MOTOR_LF_Pwm);
+	// // sprintf(res, "RF:%.5f RB:%.5f LB:%.5f LF:%.5f\n\0",MOTOR_RF_Pwm, MOTOR_RB_Pwm, MOTOR_LB_Pwm, MOTOR_LF_Pwm);
 	// // sprintf(res, "yawP:%.5f rollP:%.5f pitchP:%.5f\n\0", attitudeOut.yawOut, attitudeOut.rollOut, attitudeOut.pitchOut);
 	// RCS_USART_Send_Str(DEBUGUSART, res);
 	// RCS_USART_Send_Char(DEBUGUSART, '\n');

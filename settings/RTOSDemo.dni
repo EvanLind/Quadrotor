@@ -9,7 +9,7 @@ TriggerName=OSStart
 LimitSize=0
 ByteLimit=50
 [DebugChecksum]
-Checksum=-1266834992
+Checksum=420656942
 [Exceptions]
 StopOnUncaught=_ 0
 StopOnThrow=_ 0
@@ -108,10 +108,6 @@ GraphEnabled=0
 ShowTimeLog=1
 ShowTimeSum=1
 SumSortOrder=0
-[Disassemble mode]
-mode=1
-[Breakpoints2]
-Count=0
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""
@@ -119,29 +115,6 @@ Category=_ 0
 [TermIOLog]
 LoggingEnabled=_ 0
 LogFile=_ ""
-[Aliases]
-A0=_ "C:\Users\Administrator\Desktop\9.23\LIN_09.16\STM32\Libraries\CMSIS\Include\core_cm4.h" "E:\Evan Lin\CLUB\RCS\程序\调试\LIN_09.16\STM32\Libraries\CMSIS\Include\core_cm4.h"
-A1=_ "C:\Users\Administrator\Desktop\LIN_09.16\LIN_09.16\uCOS-II\uC-LIB\lib_mem.c" "E:\Evan Lin\CLUB\RCS\程序\调试\LIN_09.16\uCOS-II\uC-LIB\lib_mem.c"
-A2=_ "C:\Users\cloud\Desktop\RCS06_Manual\STM32\Libraries\CMSIS\ST\STM32F4xx\system_stm32f4xx.c" "E:\Evan Lin\CLUB\RCS\程序\RCS06_Manual (2)\RCS06_Manual\STM32\Libraries\CMSIS\ST\STM32F4xx\system_stm32f4xx.c"
-A3=_ "C:\Users\cloud\Desktop\程序软件\RCS06_Manual\STM32\Libraries\CMSIS\ST\STM32F4xx\system_stm32f4xx.c" ""
-A4=_ "D:\workingon\projects\RCS_Main\uCOS-II\Ports\os_cpu_a.asm" "E:\projects\RCS_Main\uCOS-II\Ports\os_cpu_a.asm"
-A5=_ "E:\Evan Lin\CLUB\RCS\RCS_07\Programme\Code\STRIKE_V3.14\uCOS-II\Ports\os_dbg.c" "E:\Evan Lin\CLUB\PingPong\STRIKE\uCOS-II\Ports\os_dbg.c"
-A6=_ "E:\Evan Lin\CLUB\RCS\RCS_07\Programme\Code\STRIKE_V3.14\uCOS-II\Source\os_core.c" "E:\Evan Lin\CLUB\PingPong\STRIKE\uCOS-II\Source\os_core.c"
-A7=_ "E:\Evan Lin\CLUB\RCS\RCS_07\Programme\Code\STRIKE_V3.14\uCOS-II\uC-LIB\lib_mem.c" "E:\Evan Lin\CLUB\PingPong\STRIKE\uCOS-II\uC-LIB\lib_mem.c"
-A8=_ "E:\Evan Lin\CLUB\RCS\RCS_07\programme\Code\STRIKE\STM32\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c" "E:\Evan Lin\CLUB\PingPong\STRIKE\STM32\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c"
-A9=_ "E:\Evan Lin\CLUB\RCS\RCS_07\programme\Code\STRIKE\STM32\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c" "E:\Evan Lin\CLUB\PingPong\STRIKE\STM32\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c"
-A10=_ "E:\Evan Lin\CLUB\RCS\程序\RCS06_Manual (2)\RCS06_Manual\STM32\Libraries\CMSIS\ST\STM32F4xx\system_stm32f4xx.c" "E:\Evan Lin\CLUB\RCS\程序\调试\LIN_09.16\STM32\Libraries\CMSIS\ST\STM32F4xx\system_stm32f4xx.c"
-A11=_ "E:\Evan Lin\CLUB\RCS\程序\RCS06_Manual (2)\RCS06_Manual\uCOS-II\Ports\os_cpu_a.asm" "E:\Evan Lin\CLUB\RCS\程序\调试\LIN_09.16\STM32\Libraries\CMSIS\ST\STM32F4xx\system_stm32f4xx.c"
-A12=_ "E:\RCS_Main\STM32\bsp.c" ""
-A13=_ "E:\projects\RCS_Main\RCS\RCSBaseLib\RCS_TimerInterrupt.c" "E:\projects\RCS_Main\RCSLIB\RCSBaseLib\RCS_TimerInterrupt.c"
-A14=_ "E:\summer_peixun\wendang\RCS06_Manual\STM32\Libraries\CMSIS\ST\STM32F4xx\startup_stm32f4xx.s" ""
-A15=_ "E:\summer_peixun\wendang\RCS06_Manual\STM32\Libraries\CMSIS\ST\STM32F4xx\system_stm32f4xx.c" ""
-A16=_ "E:\summer_peixun\wendang\RCS06_Manual\STM32\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c" ""
-A17=_ "E:\summer_peixun\wendang\RCS06_Manual\uCOS-II\Ports\os_cpu_a.asm" ""
-A18=_ "F:\Automatic\RCSLIB\RCSMotion\RCS_Motion_Gyro.c" ""
-A19=_ "F:\xmurcs-rcs_automatic\USER_CODE\AutoStart.c" ""
-Count=20
-SuppressDialog=1
 [Trace2]
 Enabled=0
 ShowSource=1
@@ -162,3 +135,31 @@ Mode=3
 Graph=0
 Symbiont=0
 Exclusions=
+[Disassemble mode]
+mode=1
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "C:\Users\Administrator\Desktop\9.23\LIN_09.16\STM32\Libraries\CMSIS\Include\core_cm4.h" "E:\Evan Lin\CLUB\RCS\程序\调试\LIN_09.16\STM32\Libraries\CMSIS\Include\core_cm4.h"
+A1=_ "C:\Users\Administrator\Desktop\LIN_09.16\LIN_09.16\uCOS-II\uC-LIB\lib_mem.c" "E:\Evan Lin\CLUB\RCS\程序\调试\LIN_09.16\uCOS-II\uC-LIB\lib_mem.c"
+A2=_ "C:\Users\cloud\Desktop\RCS06_Manual\STM32\Libraries\CMSIS\ST\STM32F4xx\system_stm32f4xx.c" "E:\Evan Lin\CLUB\RCS\程序\RCS06_Manual (2)\RCS06_Manual\STM32\Libraries\CMSIS\ST\STM32F4xx\system_stm32f4xx.c"
+A3=_ "C:\Users\cloud\Desktop\程序软件\RCS06_Manual\STM32\Libraries\CMSIS\ST\STM32F4xx\system_stm32f4xx.c" ""
+A4=_ "D:\workingon\projects\RCS_Main\uCOS-II\Ports\os_cpu_a.asm" "E:\projects\RCS_Main\uCOS-II\Ports\os_cpu_a.asm"
+A5=_ "E:\Evan Lin\CLUB\Quadrotor\Test\STM32\bsp_int.c" "E:\Evan Lin\CLUB\Quadrotor\Quadrotor\STM32\bsp_int.c"
+A6=_ "E:\Evan Lin\CLUB\RCS\RCS_07\Programme\Code\STRIKE_V3.14\uCOS-II\Ports\os_dbg.c" "E:\Evan Lin\CLUB\PingPong\STRIKE\uCOS-II\Ports\os_dbg.c"
+A7=_ "E:\Evan Lin\CLUB\RCS\RCS_07\Programme\Code\STRIKE_V3.14\uCOS-II\Source\os_core.c" "E:\Evan Lin\CLUB\PingPong\STRIKE\uCOS-II\Source\os_core.c"
+A8=_ "E:\Evan Lin\CLUB\RCS\RCS_07\Programme\Code\STRIKE_V3.14\uCOS-II\uC-LIB\lib_mem.c" "E:\Evan Lin\CLUB\PingPong\STRIKE\uCOS-II\uC-LIB\lib_mem.c"
+A9=_ "E:\Evan Lin\CLUB\RCS\RCS_07\programme\Code\STRIKE\STM32\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c" "E:\Evan Lin\CLUB\PingPong\STRIKE\STM32\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c"
+A10=_ "E:\Evan Lin\CLUB\RCS\RCS_07\programme\Code\STRIKE\STM32\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c" "E:\Evan Lin\CLUB\PingPong\STRIKE\STM32\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c"
+A11=_ "E:\Evan Lin\CLUB\RCS\程序\RCS06_Manual (2)\RCS06_Manual\STM32\Libraries\CMSIS\ST\STM32F4xx\system_stm32f4xx.c" "E:\Evan Lin\CLUB\RCS\程序\调试\LIN_09.16\STM32\Libraries\CMSIS\ST\STM32F4xx\system_stm32f4xx.c"
+A12=_ "E:\Evan Lin\CLUB\RCS\程序\RCS06_Manual (2)\RCS06_Manual\uCOS-II\Ports\os_cpu_a.asm" "E:\Evan Lin\CLUB\RCS\程序\调试\LIN_09.16\STM32\Libraries\CMSIS\ST\STM32F4xx\system_stm32f4xx.c"
+A13=_ "E:\RCS_Main\STM32\bsp.c" ""
+A14=_ "E:\projects\RCS_Main\RCS\RCSBaseLib\RCS_TimerInterrupt.c" "E:\projects\RCS_Main\RCSLIB\RCSBaseLib\RCS_TimerInterrupt.c"
+A15=_ "E:\summer_peixun\wendang\RCS06_Manual\STM32\Libraries\CMSIS\ST\STM32F4xx\startup_stm32f4xx.s" ""
+A16=_ "E:\summer_peixun\wendang\RCS06_Manual\STM32\Libraries\CMSIS\ST\STM32F4xx\system_stm32f4xx.c" ""
+A17=_ "E:\summer_peixun\wendang\RCS06_Manual\STM32\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c" ""
+A18=_ "E:\summer_peixun\wendang\RCS06_Manual\uCOS-II\Ports\os_cpu_a.asm" ""
+A19=_ "F:\Automatic\RCSLIB\RCSMotion\RCS_Motion_Gyro.c" ""
+A20=_ "F:\xmurcs-rcs_automatic\USER_CODE\AutoStart.c" ""
+Count=21
+SuppressDialog=1

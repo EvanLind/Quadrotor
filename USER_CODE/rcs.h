@@ -64,15 +64,6 @@ typedef struct
 
 
 
-
-
-
-
-
-
-
-
-
 #define DEG2RAD         1.74532925199433e-2f            //角度变换成弧度     
 #define RAD2DEG         5.72957795130823e1f
 #define FLOAT_ZERO      1e-10f
